@@ -26,5 +26,9 @@ async function StartServer(){
 function Testing(){
     return 0;
 }
+function Rizz(){
+    return 0;
+}
 Testing();
+Rizz();
 StartServer();
