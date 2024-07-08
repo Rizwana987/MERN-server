@@ -1,4 +1,4 @@
-name: Auto Merge Main to  Testing in server
+name: Auto Merge Main to Testing in client
 
 on:
   push:
@@ -13,7 +13,8 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
         with: 
-          token: ${{secrets.ACTION_PAT}}
+          # Replace the secret token with a placeholder
+          token: ${{ secrets.ACTIONS_PAT }}
 
       - name: Configure Git
         run: |
