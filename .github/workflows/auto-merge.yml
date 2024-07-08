@@ -15,8 +15,8 @@ jobs:
 
       - name: Configure Git
         run: |
-          git config --global user.name 'Rizwana987'
-          git config --global user.email 'rrizwanashaik987@gmail.com'
+          git config --global user.name 'your name'
+          git config --global user.email 'your email@gmail.com'
 
       - name: Fetch all branches
         run: git fetch --all
