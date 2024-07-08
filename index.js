@@ -29,7 +29,7 @@ function Testing(){
 function Rizz(){
     return 0;
 }
-funtion Sravs(){
+function Sravs(){
     return 0;
 }
 Testing();
