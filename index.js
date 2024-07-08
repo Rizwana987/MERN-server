@@ -29,6 +29,10 @@ function Testing(){
 function Rizz(){
     return 0;
 }
+funtion Sravs(){
+    return 0;
+}
 Testing();
 Rizz();
+Sravs();
 StartServer();
